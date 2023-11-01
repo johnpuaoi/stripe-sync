@@ -1,4 +1,4 @@
-import { createDenoHandler } from './adapters/deno';
-import { createSupabaseAdapter } from './databaseAdapters/supabase';
+import { createDenoHandler } from './adapters/deno.ts';
+import { createSupabaseAdapter } from './databaseAdapters/supabase.ts';
 
 export { createDenoHandler, createSupabaseAdapter };
