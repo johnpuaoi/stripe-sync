@@ -1,6 +1,6 @@
 {
-  "name": "stripe-sync",
-  "version": "0.1.4",
+  "name": "stripe-sync-jptech",
+  "version": "0.1.5",
   "description": "sync stripe data to your SQL database",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -73,10 +73,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lawrencecchen/stripe-sync.git",
+    "url": "git+https://github.com/johnpuaoi/stripe-sync-jptech.git",
     "directory": "packages/stripe-sync"
   },
-  "homepage": "https://stipe-sync.vercel.app",
   "scripts": {
     "dev": "tsx watch src/entry-node",
     "dev:parse": "tsx watch src/generate",
@@ -93,7 +92,7 @@
     "deno",
     "bun"
   ],
-  "author": "Lawrence Chen",
+  "author": "John Puaoi",
   "license": "MIT",
   "devDependencies": {
     "@apidevtools/swagger-parser": "^10.1.0",
